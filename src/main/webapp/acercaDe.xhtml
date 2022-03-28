@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<title><ui:insert name="title">Acerca de </ui:insert></title>
+
+	<!-- Agregando CSS boostrap -->
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+
+	<!-- Agregando JS boostrap -->
+	<h:outputScript library="js" name="bootstrap.min.js"></h:outputScript>
+
+</h:head>
+
+<h:body>
+
+	<ui:composition template="/plantillas/plantilla.xhtml">
+		<ui:define name="content">
+
+			<div align="center">
+				<h1>Lista de Usuarios</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img" name="boy.png"
+								alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 1</h4>
+								<p class="card-text">Juan Perez</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img"
+								name="boy-1.png" alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 2</h4>
+								<p class="card-text">Marco Salas</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img"
+								name="boy-2.png" alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 3</h4>
+								<p class="card-text">Pedro Medina</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img" name="boy-3.png"
+								alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 4</h4>
+								<p class="card-text">Jesus Morales</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-sm-4">
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img"
+								name="boy-4.png" alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 5</h4>
+								<p class="card-text">Carlos Perez</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="container mt-3">
+						<div class="card" style="width: 200px">
+							<h:graphicImage class="card-img-top" library="img"
+								name="boy-5.png" alt="imagen" style="width: 100%"></h:graphicImage>
+							<div class="card-body">
+								<h4 class="card-title">Usuario 6</h4>
+								<p class="card-text">Martin Soto</p>
+								<a href="#" class="btn btn-primary">See Profile</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</ui:define>
+	</ui:composition>
+
+</h:body>
+
+</html>
